@@ -33,6 +33,22 @@
     
     // Drawing the line
     [path stroke];
+    
+    // Set line width to 10 points
+    path.lineWidth = 10;
+    
+    // Set the drawing color to light gray
+    [[UIColor lightGrayColor] setStroke];
 }
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        // All HypnosisViews start with a clear background color
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+
 
 @end
