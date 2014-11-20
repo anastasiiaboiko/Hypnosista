@@ -43,6 +43,10 @@
     
     // Drawing the line
     [path stroke];
+    
+    UIImage *catImage = [UIImage imageNamed:@"cat_png.png"];
+    
+    [catImage drawInRect:CGRectMake(130, 130, 130, 130) ];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {

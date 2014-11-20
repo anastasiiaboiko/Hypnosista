@@ -13,6 +13,7 @@
 		FD4EAC521A1E287000E9B8FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4EAC511A1E287000E9B8FF /* Images.xcassets */; };
 		FD4EAC611A1E287000E9B8FF /* HypnosistaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4EAC601A1E287000E9B8FF /* HypnosistaTests.m */; };
 		FD4EAC6C1A1E298600E9B8FF /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4EAC6B1A1E298600E9B8FF /* HypnosisView.m */; };
+		FD6C403E1A1E38680045ACB6 /* cat_png.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6C403D1A1E38680045ACB6 /* cat_png.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		FD4EAC601A1E287000E9B8FF /* HypnosistaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosistaTests.m; sourceTree = "<group>"; };
 		FD4EAC6A1A1E298600E9B8FF /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypnosisView.h; path = ../HypnosisView.h; sourceTree = "<group>"; };
 		FD4EAC6B1A1E298600E9B8FF /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypnosisView.m; path = ../HypnosisView.m; sourceTree = "<group>"; };
+		FD6C403D1A1E38680045ACB6 /* cat_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat_png.png; path = ../../../../../Desktop/cat_png.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		FD4EAC381A1E286F00E9B8FF = {
 			isa = PBXGroup;
 			children = (
+				FD6C403D1A1E38680045ACB6 /* cat_png.png */,
 				FD4EAC431A1E287000E9B8FF /* Hypnosista */,
 				FD4EAC5D1A1E287000E9B8FF /* HypnosistaTests */,
 				FD4EAC421A1E287000E9B8FF /* Products */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6C403E1A1E38680045ACB6 /* cat_png.png in Resources */,
 				FD4EAC521A1E287000E9B8FF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +395,7 @@
 				FD4EAC661A1E287000E9B8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4EAC671A1E287000E9B8FF /* Build configuration list for PBXNativeTarget "HypnosistaTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				FD4EAC691A1E287000E9B8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
